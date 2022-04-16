@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> bootstrap-practice</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+      h1{
+        margin-top: 100px;
+      }
+      #flex-container{
+        height: 300px;
+        background-color:yellowgreen;
+      }
+    </style>
+</head>
+<style>
+    .sabit{
+        display: flex;
+        max-width: width 2000px;
+    }
+</style>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">sabit</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+    <h1>hello from bootstrap</h1>
+    <div>
+        <h1>start to show my button</h1>
+        <button class="btn btn-primary">primary </button>
+        <button class="btn btn-secondary" >secondary</button>
+        <button class="btn btn-success">success</button >
+            <button class="btn btn-danger">danger</button>
+            <button class="btn btn-warning">warning</button>
+            <button class="btn btn-dark">dark</button>
+
+    </div>
+
+      <h1>colors</h1>
+      <div>
+       <p class="text-primary">primary</p>
+       <p class="text-secondary">secondary</p>
+       <p class="text-success">success</p>
+       <p class="text-warning">warning</p>
+       <p class="text-danger">danger</p>
+       <p class="text-light">light</p>
+       <p class="text-dark">dark</p>
+
+      </div>
+
+      <div>
+          <div class="bg-primary text-white">
+              <h1> background-color</h1>
+              <p>my bootstrap backgroundf</p>
+          </div>
+          <div class="bg-secondary text-white">
+            <h1> background-color</h1>
+            <p>my bootstrap backgroundf</p>
+          </div>
+          <div class="bg-success text-white">
+            <h1> background-color</h1>
+            <p>my bootstrap backgroundf</p>
+          </div>
+          <div class="bg-warning text-white">
+            <h1> background-color</h1>
+            <p>my bootstrap backgroundf</p>
+          </div>
+          <div class="bg-danger text-white">
+            <h1> background-color</h1>
+            <p>my bootstrap backgroundf</p>
+          </div>
+
+      </div>
+         <div class="sabit">
+             <img  class="img-fluid w-25 rounded-circle img-thumbnail "  src="images/food1.jpg" alt="">
+             <img  class="img-fluid w-25 rounded-circle img-thumbnail "src="images/me.jpg" alt="">
+             <img  class="img-fluid w-25 rounded-circle img-thumbnail "src="images/sabit.jpg" alt="">
+             <img class="img-fluid w-25 rounded-circle img-thumbnail " src="images/sajek.jpg" alt="">
+             <img class="img-fluid w-25 rounded-circle img-thumbnail " src="images/seafood.jpg" alt="">
+             <img class="img-fluid w-25 rounded-circle img-thumbnail " src="images/tour.jpg" alt="">
+
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="images/food1.jpg"  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">fruite juice</h5>
+                  <p class="card-text text-success">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-danger">click me</a>
+                </div>
+              </div>
+
+              <div class="card-group" style="width: 50%;">
+                <div class="card">
+                  <img src="images/me.jpg" height="300px; class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">me</h5>
+                    <p class="card-text text-success">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text text-warning"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card" style="width: 50%;">
+                  <img src="images/sabit.jpg"height="300px; class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">sabit</h5>
+                    <p class="card-text text-dange">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text text-secondary"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card" style="width:50%;">
+                  <img src="images/sajek.jpg"height="300px; class= "card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">sajek</h5>
+                    <p class="card-text text-warning">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text text-danger "><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+
+              <h1>navegation</h1>
+              <nav class="nav">
+                <a class="nav-link" href="">home</a>
+                <a  class="nav-link" href="">product</a>
+                <a  class="nav-link" href=""> shopping-cart</a>
+                <a  class="nav-link" href="">shipping</a>
+              </nav>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link sabit">sabit</a>
+                </li>
+              </ul>
+              <div class="container">
+                <h1>grid</h1>
+                <div class="row">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <img src="images/food1.jpg" class="img-fluid" alt="">
+                   
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo aliquid, labore deleniti facere ducimus mollitia maiores facilis tempore enim provident! Ullam, harum quos illum odio magni, eum officiis dolore vitae corrupti in quibusdam rem adipisci cum! Ut quidem dolorum ea sequi sunt laudantium tenetur totam explicabo, maxime quos expedita laborum aliquam incidunt dolorem nostrum quisquam corrupti voluptate reiciendis blanditiis id aliquid esse laboriosam. A ad rerum quo fuga dicta aperiam perspiciatis? Fugiat nulla quae quam perferendis, cum eum voluptatibus id sapiente animi amet, rerum sunt deserunt asperiores sequi magni excepturi! Laboriosam dolorum non fugit tenetur error voluptatum earum debitis libero cumque quae nulla vel deserunt a odit consequuntur atque est rerum eos, sunt, porro quam? Amet, minus alias laboriosam laudantium aspernatur, eos nostrum nesciunt porro id omnis explicabo eum reiciendis quis nihil fuga inventore quidem cum rem nisi. Sapiente dolorum labore rem nisi quidem esse rerum ducimus natus delectus ea? A quis suscipit earum facilis reprehenderit doloremque eaque accusantium molestiae magnam saepe minus quaerat esse, reiciendis eum alias et nostrum labore possimus cumque enim atque ipsa corporis nesciunt? Rerum nostrum minima inventore quia, repudiandae debitis esse, perferendis ipsum rem tempora minus repellat! Dolorum tempora voluptas sed, aspernatur laborum exercitationem voluptatum!</p>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <img src="images/food1.jpg" class="img-fluid" alt="">
+                   
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat dolorem voluptatum, eius molestiae sunt in totam dignissimos non ipsam. Quas quia eaque assumenda aliquid delectus odit facilis, reiciendis molestias autem tempore alias voluptatum dolore optio, officia expedita magni quibusdam? Beatae possimus mollitia, sint exercitationem vitae minus vel atque ipsum illum? Similique sunt tempora ipsa esse accusantium repellendus amet. Ratione inventore ab corporis ducimus error dolor alias expedita aut quis porro officiis a ipsa, officia molestiae sed quas eligendi natus, sequi excepturi nesciunt omnis quaerat. Numquam ipsam ea odio corporis eius. Rerum explicabo blanditiis non dolorum maiores. Dolor enim omnis neque, consectetur ea impedit optio eligendi qui, deleniti, unde odit eaque nam iste perspiciatis ipsam labore excepturi adipisci animi porro ducimus dignissimos. Velit nesciunt sit eos quis hic totam molestias, earum omnis numquam qui illo ex animi fugiat culpa natus sint repudiandae voluptate a ut ullam facere nam nobis. Delectus quo, eum obcaecati magnam quos nulla ipsum cum maiores! Quidem aperiam autem ratione, voluptatum accusamus, voluptatem quo provident dolore velit eaque rerum incidunt magnam aliquam facilis quos illo. Et molestiae odit maxime, voluptatum tenetur quis dolorem expedita voluptas incidunt in aperiam error eum sit harum reiciendis perferendis libero ea iste dolore?
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <img src="images/food1.jpg" class="img-fluid" alt="">
+                   
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. At necessitatibus consectetur doloremque! Sapiente, mollitia nobis libero minima facilis incidunt, saepe aut nisi non, vel error tempore. Reiciendis nam repudiandae nisi voluptatum neque! Maiores labore velit nostrum deleniti, maxime numquam modi, saepe odit facere, perspiciatis est obcaecati unde quidem cum. Nobis facere rem rerum quas dolore facilis officia voluptatibus, inventore eos, numquam minus laudantium et fugit! Laudantium odio ullam iusto, iste necessitatibus excepturi laboriosam sunt deserunt veniam eius? Saepe placeat qui accusamus illum amet praesentium minus expedita alias rerum exercitationem velit at labore ipsum perferendis provident non, dolor, eius ex. Aliquid minus illo dicta voluptate deserunt quisquam obcaecati, iste placeat possimus fuga laborum sapiente sunt exercitationem quod reprehenderit ratione maxime nemo, nisi, sint consectetur facere? Totam laborum repellendus optio possimus assumenda expedita dolores consequatur dignissimos minus facere accusantium, fuga fugiat quasi rem vitae alias impedit culpa ducimus, modi laboriosam? Perspiciatis placeat nisi ipsa deleniti quam nemo eos. Commodi voluptatem ex itaque placeat, id qui? Cupiditate deleniti perspiciatis sapiente mollitia velit quod natus dolores dolorum ipsum culpa vel perferendis, inventore, eius architecto rem ullam maiores veritatis! Libero sunt eum, similique temporibus repellendus aliquam, debitis distinctio at alias quas eaque amet nihil minima.
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <img src="images/food1.jpg" class="img-fluid" alt="">
+                   
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quia atque illo aliquam, nam corrupti debitis architecto iste repellat hic molestias nulla assumenda totam molestiae voluptatibus, odit placeat ut eos amet et natus! Sunt eaque perspiciatis autem ea quaerat temporibus voluptates blanditiis quasi asperiores nesciunt eos accusantium consequuntur pariatur quam placeat magnam voluptas, voluptatem vero! Iste optio enim eligendi, perspiciatis, provident nulla ipsam fugit omnis nesciunt ex harum eos sapiente sint veritatis similique sit vitae possimus voluptate. Ex, ducimus ullam quasi deserunt autem mollitia et labore ea dolorem dicta nostrum sapiente voluptatum similique obcaecati quam soluta consequuntur. Rerum iusto neque fugit quis et placeat perspiciatis accusamus omnis magnam aliquam tenetur, assumenda ducimus voluptatibus explicabo blanditiis. In quos impedit, molestias vero velit provident corporis dignissimos eligendi quibusdam qui distinctio tempore veritatis ea labore inventore quasi rerum eos facilis porro quisquam animi. Sit, quos repudiandae saepe quasi expedita aliquid, aliquam velit, sapiente sequi perspiciatis adipisci earum voluptatum ullam nesciunt libero at voluptate? Ipsa numquam tempora nesciunt ea earum dolores quibusdam, quasi nobis deserunt dolore mollitia id, et a reprehenderit esse labore soluta! A aperiam distinctio provident quas perferendis hic officia. A exercitationem saepe nihil tempore repudiandae recusandae error illo, vitae in natus!
+                  </div>
+
+                </div>
+
+              </div>
+              <div>
+                <h1>carousel</h1>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/food1.jpg"class="d-block w-100" style="height : 500px;" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/seafood.jpg" class="d-block w-100 " style="height : 500px;" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/me.jpg" class="d-block w-100 " style="height : 500px;" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="container">
+                <h1>flex</h1>
+                <!-- <div class="d-flex flex-md-column-reverse flex-lg-column"> -->
+                  <div id="flex-container" class="d-flex align-items-center justify-content-around">
+
+                
+                <div>sabit</div>
+                <div>riad</div>
+                <div>hridoy</div>
+                <div> ahad</div>
+              </div>
+              </div>
+              
+              <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
